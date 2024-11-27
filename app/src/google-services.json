@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "971977641129",
+    "project_id": "travelitineraryapp2",
+    "storage_bucket": "travelitineraryapp2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:971977641129:android:b9287959c8cdf2e5322db8",
+        "android_client_info": {
+          "package_name": "com.example.travelitineraryapp2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvS1pNtN3ijRlOuYRbZCBhlRVfiKdLCEM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

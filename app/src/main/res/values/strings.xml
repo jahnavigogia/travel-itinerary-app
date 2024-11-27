@@ -1,0 +1,9 @@
+<resources>
+    <!-- Existing string resources -->
+    <string name="app_name">Travel Itinerary App</string>
+    <string name="add_new_destination">Add New Destination</string>
+
+    <!-- New string resource for the login page -->
+    <string name="login">Login</string>
+    <string name="signup">Sign Up</string>
+</resources>

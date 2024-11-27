@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Destination Name -->
+    <TextView
+        android:id="@+id/textViewDestinationName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Destination Name"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/TextDestinationName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter destination name"/>
+
+    <!-- Start Date -->
+    <TextView
+        android:id="@+id/textViewStartDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Date"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/TextStartDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Select start date"
+        android:focusable="false"
+        android:clickable="true"/>
+
+    <!-- End Date -->
+    <TextView
+        android:id="@+id/textViewEndDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="End Date"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/TextEndDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Select end date"
+        android:focusable="false"
+        android:clickable="true"/>
+
+    <!-- Number of People -->
+    <TextView
+        android:id="@+id/textViewNumberOfPeople"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Number of People"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextNumberOfPeople"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Enter number of people"/>
+
+    <!-- Save Button -->
+    <Button
+        android:id="@+id/buttonSaveDestination"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Destination"
+        android:layout_marginTop="24dp"/>
+
+</LinearLayout>

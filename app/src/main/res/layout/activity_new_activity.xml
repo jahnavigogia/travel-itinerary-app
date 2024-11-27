@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editTextActivityName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Activity Name"/>
+
+    <EditText
+        android:id="@+id/editTextActivityDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Date"
+        android:layout_below="@id/editTextActivityName"
+        android:padding="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextActivityTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Time"
+        android:layout_below="@id/editTextActivityDate"
+        android:padding="16dp"/>
+
+    <Button
+        android:id="@+id/buttonSaveActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:layout_below="@id/editTextActivityTime"/>
+</RelativeLayout>
